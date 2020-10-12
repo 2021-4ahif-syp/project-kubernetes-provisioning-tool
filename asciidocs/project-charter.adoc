@@ -19,25 +19,33 @@ Kubernetes Provisioning Tool
 HTL Leonding
 
 == Project Background
-Many popular cloud services (Azure, IBM, Google Cloud) are too expensive for educational purpose. Also, offers like "free for X hours" often include hidden costs - this just isn't suitable for our use case.
-Starting with the third grade, most classes are in the need for one or multiple hosted Docker containers for their projects, but this is currently hard to manage,
-because everyone has to do it on their own, or they have to contact a teacher who assists them with their project.
+Many popular cloud services (Azure, IBM, Google Cloud) are too expensive for educational purposes. Also, offers like "free for X hours" often include
+hidden costs - this just isn't suitable for our use case.
+At the moment, the infrastructure would be available in the school, but it's not possible to give everyone admin privileges, so they can set up their
+own environment. That's why we need a tool which simplifies this process with a workflow in the background (a teacher can define restrictions).
 
 == Project Result
-There will be a website where the students can log in with their LDAP credentials and request a cluster by filling out a template or by submitting an own specification (yaml file). The own specifications have to be approved by a teacher.
+There will be a website where the students can log in with their LDAP credentials and request a cluster by filling out a template or by submitting
+an own specification (yaml file). The own specifications have to be approved by a teacher.
 Teachers are able to create templates (these include %variables% to let students configure services and other configuration options).
 Kubernetes automatically handles the creation of the cluster.
 
 == Project Goals
-The goal of this project is that students can easily create a k8s working environment for their projects.
+The goal is
+
+* to give students the possibility to create a Kubernetes environment without having to give them full administrative/root privileges.
+* to give teachers the possibility to create restrictions for Kubernetes environments.
 
 == Milestones
-* Figure out how to use the KVM switch
-* Install new operating system on servers
-* Get current state of project running on the servers
+
+* figure out how to use the kvm switch
+* install new operating system on servers
+* get current state of project running on the servers
+* parameters for kubernetes yaml file work
+* user interface to enter parameters works
 
 == Project Start
-This team will be starting to work on this project on Mon, 19.10. 2020, but another team has been working on the project since March 2020.
+Mon., 19.10.2020
 
 == Project End
 The intended end of this project for this team would be the end of the fifth grade (May 2022).
