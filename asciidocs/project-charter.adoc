@@ -58,6 +58,7 @@ The intended end of this project for this team would be the end of the fifth gra
 === 5AHITM
 * Halil Bahar **(Project leader)**
 * Sonja Cao
+* Juliana Naderer
 
 === 4AHIF
 * Moritz Eichhorn
